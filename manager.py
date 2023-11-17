@@ -85,8 +85,6 @@ with ui.card().classes('w-full'):
         'rowSelection': 'multiple',
         'auto_size_columns': True,
     }).classes('max-h-40')
-        
-        
 
 def import_file(imported):
     rulesManager.import_rules(imported.content)
@@ -129,4 +127,4 @@ with ui.row().classes("items-center justify-between w-full"):
 
 update_tables()
 
-ui.run(dark=True, title="PanduzaHA-ng serialManager")
+ui.run(dark=True, show=True, title="PanduzaHA-ng serialManager")
